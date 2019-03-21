@@ -1,0 +1,139 @@
+<html>
+    <head>
+        <meta charset="uft-8"/>
+        <title>Exercicio 4</title>
+        <style type="text/css">
+        .Negrito{
+            font-weight: bolder !important;
+        }
+        #cabeçalho{
+            text-align: center;
+            font:40px arial;
+            color: darkgray;
+        }
+        #fieldset{
+            margin: 20px 200px 1200px 200px;
+        }
+        #nome{
+            margin: 0 0 0 0px;
+        }
+        #nome input{
+            background-color:#ddd;
+            border: 1px #333 solid;
+            width: 80%;
+        }
+        #RG{
+            width: 40%;
+            float: left;
+        }
+        #RG input{
+            background-color:#ddd;
+            border: 1px #333 solid;
+            width: 99%;
+        }
+        #CPF{
+            width: 40%;
+            float: right;
+        }
+        #CPF input{
+            background-color:#ddd;
+            border: 1px #333 solid;
+            width: 99%;
+        }
+        #endereço{
+            width: 80%;
+            float: left;
+        }
+        #endereço input{
+            background-color:#ddd;
+            border: 1px #333 solid;
+            width: 100%;
+        }
+        #genero{
+            width: 38%;
+            float: left;
+        }
+        #genero select  {
+            background-color:#ddd;
+            border: 1px #333 solid;
+            width: 100%;
+        }
+        #data{
+            width: 40%;
+            float: right;
+        }
+        #data input{
+            background-color:#ddd;
+            border: 1px #333 solid;
+            width: 100%;
+        }
+        #rodape{
+            margin: 20px 500px 0 0;
+            width: 40%;
+            float: left;
+            text-align: left;
+
+        }
+        #botao{
+            margin: 340px 0 0 240px;
+            float: none;
+            text-align: center;
+            width: 40%
+        }
+        #botao input{
+            background-color:#ddd;
+            padding: 10px 11px 10px 11px;
+        }
+        </style>
+    </head>
+    <body>
+        <div id="cabeçalho">
+            <p class="Negrito">Ficha cadastral</p>
+        </div>
+        <div id="fieldset">
+                <p><fieldset>
+                    <legend>Dados Pessoais:</legend>
+            <div id="nome">
+                <p>Nome:</p>
+                <input type="text" color:#ddd />
+            </div>
+            <div id="RG">
+                    <p>RG:</p>
+                    <input type="number " color:#ddd />
+                </div>
+                <div id="CPF">
+                    <p>CPF:</p>
+                    <input type="number" color:#ddd />
+            </div>
+            <div id="endereço">
+                <p>Endereço:</p>
+                <input type="text"/>
+            </div>
+            <div id="genero">
+                <p>Genero:</p>
+                    <select name=genero>
+                        <option value="Masculino">Masculino</option>
+                        <option value="Feminino">Feminino</option>
+                        <option value="Outros">Outros</option>
+                </select>
+            </div>
+            <div id="Data">
+                <p>Data de nascimento:</p>
+                <input type="number" color:#ddd />
+            </div>
+            <div id="rodape">
+                <p>Situação Civil:</p>
+                <input id="Solteiro" type="radio" name="Situação(O)" value="s"/>
+                <label for="solteiro">Solteiro(a)</label>
+                <input id="Casado" type="radio" name="Casado(O)" value="s"/>
+                <label for="casado">casado(a)</label>
+                <input id="Viuva" type="radio" name="Viusa(O)" value="s"/>
+                <label for="viuva">viuvo(a)</label>                                             
+            </div>
+            <div id="botao">
+                <input type="submit" value="Cadastrar"/>
+            </div>
+            </fieldset></p>
+        </div>
+    </body>
+</html>
